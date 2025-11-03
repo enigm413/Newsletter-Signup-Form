@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-size: 1.6rem;
+  background-color: hsl(235, 18%, 26%);
+  color: hsl(234, 29%, 20%);
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  width: 100%;
+}
+
+.section-newsletter {
+  max-width: 96rem;
+  margin: 9.6rem auto;
+}
+
+.newsletter-signup-wrapper {
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  gap: 8rem;
+  grid-template-columns: 1.3fr 1fr;
+  padding: 2rem;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.newsletter-signup-text-wrapper {
+  padding: 4rem;
+}
+
+.newsletter-signup-title {
+  font-size: 5.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.newsletter-signup-description {
+  line-height: 1.5;
+  margin-bottom: 2.8rem;
+}
+
+.newsletter-signup-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+.newsletter-signup-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.newsletter-signup-item-icon {
+  width: 2.4rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.input-label {
+  font-size: 1.3rem;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+}
+
+.user-input {
+  width: 100%;
+  border-radius: 0.8rem;
+  border: none;
+  padding: 1.2rem 0.8rem;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.4);
+  font-size: 1.4rem;
+}
+
+.btn--submit {
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+}
+
+.newsletter-signup-image-wrapper {
+}
+
+.newsletter-signup-image {
+  max-width: 100%;
+}
+
+.newsletter-success-message-wrapper {
+  display: none;
+}

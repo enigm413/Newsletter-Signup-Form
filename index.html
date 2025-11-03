@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter SignUp Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section-newsletter">
+      <article class="newsletter-signup-wrapper">
+        <div class="newsletter-signup-text-wrapper">
+          <h2 class="newsletter-signup-title">Stay updated!</h2>
+          <p class="newsletter-signup-description">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+
+          <ul class="newsletter-signup-list">
+            <li class="newsletter-signup-item">
+              <img
+                src="Images/icon-list.svg"
+                alt="Small Tick Image"
+                class="newsletter-signup-item-icon"
+              />
+              <p>Product discovery and building what matters</p>
+            </li>
+
+            <li class="newsletter-signup-item">
+              <img
+                src="Images/icon-list.svg"
+                alt="Small Tick Image"
+                class="newsletter-signup-item-icon"
+              />
+              <p>Measuring to ensure updates are a success</p>
+            </li>
+
+            <li class="newsletter-signup-item">
+              <img
+                src="Images/icon-list.svg"
+                alt="Small Tick Image"
+                class="newsletter-signup-item-icon"
+              />
+              <p>And much more!</p>
+            </li>
+          </ul>
+
+          <form class="signup-form">
+            <div class="input-wrapper">
+              <label for="email" class="input-label">Email Address</label>
+
+              <input
+                type="mail"
+                placeholder="email@company.com"
+                class="user-input"
+              />
+            </div>
+            <button type="submit" class="btn btn--submit">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+
+        <div class="newsletter-signup-image-wrapper">
+          <img
+            src="Images/illustration-sign-up-desktop.svg"
+            alt="Sign Up Image"
+            class="newsletter-signup-image"
+          />
+        </div>
+      </article>
+
+      <article class="newsletter-success-message-wrapper">
+        <img
+          src="Images/icon-success.svg"
+          alt="Medium Tick"
+          class="newsletter-success-image"
+        />
+
+        <h2 class="newsletter-success-message-title">
+          Thanks for subscribing!
+        </h2>
+        <p class="newsletter-success-message-description">
+          A confirmation email has been sent to ash@loremcompany.com. Please
+          open it and click the button inside to confirm your subscription.
+        </p>
+        <button class="btn newsletter-success-message-btn">
+          Dismiss message
+        </button>
+      </article>
+    </section>
+  </body>
+</html>
