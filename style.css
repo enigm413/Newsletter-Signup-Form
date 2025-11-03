@@ -88,11 +88,15 @@ body {
 
 .user-input {
   width: 100%;
-  border-radius: 0.8rem;
+  border-radius: 1.2rem;
   border: none;
-  padding: 1.2rem 0.8rem;
+  padding: 1.6rem 2.8rem;
   box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.4);
   font-size: 1.4rem;
+}
+
+.user-input:focus {
+  outline: 1px solid hsl(234, 29%, 20%);
 }
 
 .btn--submit {
@@ -100,7 +104,13 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
-.newsletter-signup-image-wrapper {
+.btn--submit:hover {
+  background-image: linear-gradient(
+    to right,
+    hsla(4, 100%, 67%, 0.6),
+    hsl(4, 100%, 67%)
+  );
+  box-shadow: 0 0.8rem 2rem hsl(4, 100%, 67%);
 }
 
 .newsletter-signup-image {
