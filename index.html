@@ -14,52 +14,56 @@
   </head>
   <body>
     <section class="section-newsletter">
-      <article class="newsletter-signup-wrapper">
-        <div class="newsletter-signup-text-wrapper">
-          <h2 class="newsletter-signup-title">Stay updated!</h2>
-          <p class="newsletter-signup-description">
+      <article class="signup-wrapper">
+        <div class="signup-text-wrapper">
+          <h2 class="signup-title">Stay updated!</h2>
+          <p class="signup-description">
             Join 60,000+ product managers receiving monthly updates on:
           </p>
 
-          <ul class="newsletter-signup-list">
-            <li class="newsletter-signup-item">
+          <ul class="signup-list">
+            <li class="signup-item">
               <img
                 src="Images/icon-list.svg"
                 alt="Small Tick Image"
-                class="newsletter-signup-item-icon"
+                class="signup-item-icon"
               />
               <p>Product discovery and building what matters</p>
             </li>
 
-            <li class="newsletter-signup-item">
+            <li class="signup-item">
               <img
                 src="Images/icon-list.svg"
                 alt="Small Tick Image"
-                class="newsletter-signup-item-icon"
+                class="signup-item-icon"
               />
               <p>Measuring to ensure updates are a success</p>
             </li>
 
-            <li class="newsletter-signup-item">
+            <li class="signup-item">
               <img
                 src="Images/icon-list.svg"
                 alt="Small Tick Image"
-                class="newsletter-signup-item-icon"
+                class="signup-item-icon"
               />
               <p>And much more!</p>
             </li>
           </ul>
 
           <div class="input-wrapper">
-            <label for="email" class="input-label">Email Address</label>
+            <div class="input-label-wrapper">
+              <label for="email">Email Address</label>
+              <span class="error-msg display--none">Valid Email Required</span>
+            </div>
 
             <input
               type="email"
               placeholder="email@company.com"
               class="user-input"
+              id="email"
             />
           </div>
-          <button type="submit" class="btn btn--submit">
+          <button type="submit" class="btn" id="submit-btn">
             Subscribe to monthly newsletter
           </button>
         </div>
@@ -73,25 +77,23 @@
         </div>
       </article>
 
-      <article class="newsletter-success-message-wrapper">
+      <article class="success-msg-wrapper display--none">
         <img
           src="Images/icon-success.svg"
           alt="Medium Tick"
-          class="newsletter-success-image"
+          class="success-img"
         />
 
-        <h2 class="newsletter-success-message-title">
-          Thanks for subscribing!
-        </h2>
-        <p class="newsletter-success-message-description">
+        <h2 class="success-msg-title">Thanks for subscribing!</h2>
+        <p class="success-msg-description">
           A confirmation email has been sent to
           <span class="email">ash@loremcompany.com</span>. Please open it and
           click the button inside to confirm your subscription.
         </p>
-        <button class="btn newsletter-success-message-btn">
-          Dismiss message
-        </button>
+        <button class="btn">Dismiss message</button>
       </article>
     </section>
+
+    <script src="script.js"></script>
   </body>
 </html>

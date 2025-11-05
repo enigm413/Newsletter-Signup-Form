@@ -27,6 +27,7 @@ body {
   width: 100%;
   background-color: hsl(234, 29%, 20%);
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -38,12 +39,16 @@ body {
   box-shadow: 0 0.8rem 2rem hsl(4, 100%, 67%);
 }
 
+.display--none {
+  display: none !important;
+}
+
 .section-newsletter {
   max-width: 88rem;
   margin: 9.6rem auto;
 }
 
-.newsletter-signup-wrapper {
+.signup-wrapper {
   background-color: hsl(0, 0%, 100%);
   display: flex;
   gap: 4.8rem;
@@ -52,35 +57,35 @@ body {
   border-radius: 2rem;
 }
 
-.newsletter-signup-text-wrapper {
+.signup-text-wrapper {
   padding-left: 4.8rem;
 }
 
-.newsletter-signup-title {
+.signup-title {
   font-size: 5.6rem;
   letter-spacing: 0.3px;
   margin-bottom: 2.4rem;
 }
 
-.newsletter-signup-description {
+.signup-description {
   line-height: 1.5;
   margin-bottom: 2rem;
 }
 
-.newsletter-signup-list {
+.signup-list {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
   margin-bottom: 4rem;
 }
 
-.newsletter-signup-item {
+.signup-item {
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
 
-.newsletter-signup-item-icon {
+.signup-item-icon {
   width: 2rem;
 }
 
@@ -91,10 +96,18 @@ body {
   margin-bottom: 2.4rem;
 }
 
-.input-label {
+.input-label-wrapper {
   font-size: 1.3rem;
   letter-spacing: 0.3px;
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.error-msg {
+  color: hsl(4, 100%, 67%);
 }
 
 .user-input {
@@ -114,27 +127,26 @@ body {
   max-width: 100%;
 }
 
-.newsletter-success-message-wrapper {
+.success-msg-wrapper {
   background-color: hsl(0, 0%, 100%);
   border-radius: 2rem;
   max-width: 48rem;
   padding: 5.6rem 6rem;
   margin: 0 auto;
-  display: none;
 }
 
-.newsletter-success-image {
+.success-img {
   width: 55px;
   margin-bottom: 2.4rem;
 }
 
-.newsletter-success-message-title {
+.success-msg-title {
   font-size: 5.6rem;
   margin-bottom: 2.4rem;
   line-height: 1.05;
 }
 
-.newsletter-success-message-description {
+.success-msg-description {
   font-size: 1.6rem;
   line-height: 1.5;
   margin-bottom: 3.2rem;
