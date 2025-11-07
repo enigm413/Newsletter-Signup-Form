@@ -28,7 +28,9 @@
                 alt="Small Tick Image"
                 class="signup-item-icon"
               />
-              <p>Product discovery and building what matters</p>
+              <p class="signup-item-text">
+                Product discovery and building what matters
+              </p>
             </li>
 
             <li class="signup-item">
@@ -37,7 +39,9 @@
                 alt="Small Tick Image"
                 class="signup-item-icon"
               />
-              <p>Measuring to ensure updates are a success</p>
+              <p class="signup-item-text">
+                Measuring to ensure updates are a success
+              </p>
             </li>
 
             <li class="signup-item">
@@ -46,7 +50,7 @@
                 alt="Small Tick Image"
                 class="signup-item-icon"
               />
-              <p>And much more!</p>
+              <p class="signup-item-text">And much more!</p>
             </li>
           </ul>
 
@@ -68,13 +72,23 @@
           </button>
         </div>
 
-        <div class="newsletter-signup-image-wrapper">
+        <picture class="signup-image-wrapper">
+          <source
+            srcset="Images/illustration-sign-up-mobile.svg"
+            media="(max-width:360px)"
+          />
+
+          <source
+            srcset="Images/illustration-sign-up-tablet.svg"
+            media="(max-width:820px)"
+          />
+
           <img
             src="Images/illustration-sign-up-desktop.svg"
             alt="Sign Up Image"
-            class="newsletter-signup-image"
+            class="signup-image"
           />
-        </div>
+        </picture>
       </article>
 
       <article class="success-msg-wrapper display--none">
