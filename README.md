@@ -15,19 +15,19 @@ The component displays an elegant newsletter signup interface featuring:
 
 ### Desktop Preview
 
-![Desktop Preview](./Images/screenshots/desktop-preview.png)
+![Desktop Preview](./Images/Screenshots/desktop-preview.png)
 
 ### Tablet Preview
 
-![Tablet Preview](./Images/screenshots/tablet-preview.png)
+![Tablet Preview](./Images/Screenshots/tablet-preview.png)
 
 ### Mobile Preview
 
-![Mobile Preview](./Images/screenshots/mobile-preview.png)
+![Mobile Preview](./Images/Screenshots/mobile-preview.png)
 
 ### Success State Preview
 
-![Success State Preview](./Images/screenshots/success-preview.png)
+![Success State Preview](./Images/Screenshots/success-preview.png)
 
 ## Features
 
