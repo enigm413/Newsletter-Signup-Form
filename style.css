@@ -135,7 +135,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 2rem;
   max-width: 48rem;
-  padding: 5.6rem 6.4rem;
+  padding: 4.8rem 5.6rem;
   margin: 0 auto;
 }
 
@@ -188,7 +188,9 @@ body {
   }
 
   .success-msg-wrapper {
-    padding: 4.8rem 5.6rem;
+    max-width: 44rem;
+    padding: 3.6rem 4rem;
+    margin-top: 12.8rem;
   }
 
   .success-msg-title {
@@ -225,8 +227,13 @@ body {
     padding: 0;
   }
 
+  .success-msg-wrapper {
+    max-width: 40rem;
+    padding: 3.2rem 3.6rem;
+  }
+
   .signup-title {
-    font-size: 4.8rem;
+    font-size: 4rem;
   }
 }
 
@@ -251,5 +258,10 @@ body {
 
   .signup-text-wrapper {
     padding: 0rem 3.2rem 5.6rem 3.2rem;
+  }
+
+  .success-msg-wrapper {
+    max-width: 36rem;
+    padding: 2.8rem 2.4rem;
   }
 }
